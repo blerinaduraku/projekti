@@ -1,0 +1,79 @@
+      /* Add styles for header section */
+      header {
+        background-color: rgb(47, 77, 76);
+        padding: 50px;
+        text-align: center;
+      }
+      body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      /* Add styles for navigation section */
+      nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: rgb(106, 112, 112);
+      }
+      /* Add styles for navigation links */
+      nav a {
+        color: black;
+        text-decoration: none;
+        padding: 10px 20px;
+      }
+      /* Add styles for main content section */
+      main {
+        padding: 20px;
+      }
+      /* Add styles for footer section */
+      footer {
+        background-color: lightgray;
+        padding: 20px;
+        text-align: center;
+      }
+      .bd-a{
+        text-decoration: none;
+      }
+      *{
+        box-sizing: border-box;
+      }
+      
+      body{
+        margin: 0;
+        font-family:Arial, Helvetica, sans-serif;
+      }
+      
+      .bd-intro_containerr{
+        width: 100%;
+        background-color: rgba(28, 117, 125, 1);
+        padding: 2em 0;
+      }
+      
+      .bd-intro_container{
+        width: 80%;
+        max-width: 750px;
+        margin: 0 auto;
+      }
+      
+      .bd-intro_content--1{
+        font-size: 1.45rem;
+        color: white;
+      }
+      
+      .bd-intro_content--2{
+        font-size: 1.45rem;
+        color: black;
+      }
+      
+      h1{
+        text-transform: uppercase;
+        color: black;
+        text-decoration: underline;
+        font-size: 4vmin;
+      }
+
+      /* Add media queries for responsive design */
+      @media (max-width: 600px) {
+        nav {
+          flex-direction: column;
+        }
+      }

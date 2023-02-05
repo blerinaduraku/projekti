@@ -1,0 +1,263 @@
+/* @import url(https://fonts.googleapis.com/css?family=Poppins:400, 500, 600, 700); */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  width: 100vw;
+ background-color: rgb(47, 67, 62);
+  /*   background-repeat: no-repeat; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bd-container {
+  display: flex;
+  flex-direction: row;
+/*   flex-wrap: nowrap; */
+}
+
+.bd-right-section {
+  flex: 1 1 50%;
+}
+
+.bd-left-section {
+  flex: 1 1 50%;
+}
+
+.bd-right-section-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10% 0 20%;
+  color: #fff;
+}
+
+.bd-title {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 32px;
+}
+
+.bd-description {
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.bd-left-section-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bd-disclaimer {
+  background-color: rgb(96, 85, 165);
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  align-content: center;
+  border-radius: 8px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.bd-disclaimer-text {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.bd-disclaimer-highlight {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.bd-form {
+  background: #fff;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  padding-top: 32px;
+  border-radius: 8px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bd-form input {
+  width: 80%;
+  padding: 16px 25px 16px 25px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-left: 10%;
+  align-self: center;
+  border: 1px solid rgb(185, 182, 211);
+  border-radius: 6px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.bd-form input:focus {
+  border: 1px solid black;
+}
+
+.bd-form button {
+  width: 80%;
+  padding: 16px 25px 16px 25px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-left: 10%;
+  align-self: center;
+  border-radius: 6px;
+  color: white;
+  background: rgb(56, 204, 140);
+  border: none;
+}
+
+.form-btn:focus {
+  cursor: pointer;
+}
+
+.bd-form p {
+  width: 80%;
+  font-size: 10px;
+  padding: 0 25px 16px 25px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-left: 10%;
+}
+
+.bd-terms {
+  color: rgb(185, 182, 211);
+}
+
+.bd-terms-highlight {
+  color: rgb(255, 122, 122);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+  .bd-disclaimer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+  }
+
+  .bd-form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+  }
+
+  .bd-form input {
+    width: 80%;
+    padding: 16px;
+    margin-left: 10%;
+    margin-left: 10%;
+    align-self: center;
+  }
+
+  .bd-form button {
+    width: 80%;
+    padding: 16px;
+    margin-left: 10%;
+    margin-left: 10%;
+    align-self: center;
+  }
+
+  .bd-form p {
+    width: 80%;
+    margin-left: 10%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url("https://github.com/panda-satyabrata/hosting-images/blob/main/singup_form_bg_mobile_codepen.png?raw=true");
+  }
+
+  .bd-container {
+    flex-direction: column;
+  }
+
+  .bd-right-section-wrapper {
+    height: 60vh;
+    padding: 0 10% 0 10%;
+  }
+
+  .bd-title {
+    font-size: 42px;
+    padding-top: 40px;
+    padding-bottom: 32px;
+  }
+
+  .bd-description {
+    padding-bottom: 0px;
+  }
+
+  .bd-left-section-wrapper {
+    height: 65vh;
+  }
+
+  .bd-disclaimer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+  }
+
+  .bd-form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    flex-direction: column;
+  }
+
+  .bd-form input {
+    width: 80%;
+    padding: 16px;
+    margin-left: 10%;
+    margin-left: 10%;
+    align-self: center;
+  }
+
+  .bd-form button {
+    width: 80%;
+    padding: 16px;
+    margin-left: 10%;
+    margin-left: 10%;
+    align-self: center;
+  }
+
+  .bd-form p {
+    width: 80%;
+    margin-left: 10%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bd-right-section-wrapper {
+    height: 75vh;
+  }
+  
+    .bd-title {
+    padding-top: 20px;
+  }
+}
